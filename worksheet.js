@@ -184,15 +184,55 @@ const characters = [
 
 // const everyCharacterMassMoreThan40 = characters.every((character) => {
 //   return characters.mass > 40
-// })
+// })hank you for reaching out. I would like to learn more about this opportunity.
 
 // console.log(everyCharacterMassMoreThan40)
 
 //3. Is every character shorter than 200?
+
+// const everyCharacterShorterThan200 = characters.every((character) => {
+//   return character.height < 200
+// })
+
+// console.log(everyCharacterShorterThan200)
+
 //4. Is every character male?
+
+// const everyCharacterMale = characters.every((character) => {
+//   return character.gender === "male"
+// })
+
+// console.log(everyCharacterMale)
 
 //***SOME***
 //1. Is there at least one male character?
+
+// const oneMaleCharacter = characters.some((character) => {
+//   return character.gender === "male"
+// })
+
+// console.log(oneMaleCharacter)
+
 //2. Is there at least one character with blue eyes?
+
+// const oneCharacterWithBlueEyes = characters.some((character) => {
+//   return character.eye_color === "blue"
+// })
+
+// console.log(oneCharacterWithBlueEyes)
+
 //3. Is there at least one character taller than 210?
+
+// const oneCharacterTallerThan210 = characters.some((character) => {
+//   return character.height > 210
+// })
+
+// console.log(oneCharacterTallerThan210)
+
 //4. Is there at least one character that has mass less than 50?
+
+// const oneCharacterWithMassLessThan50 = characters.some((character) => {
+//   return character.mass < 50
+// })
+
+// console.log(oneCharacterWithMassLessThan50)
